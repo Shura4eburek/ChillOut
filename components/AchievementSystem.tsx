@@ -23,13 +23,11 @@ export const useAchievement = () => {
   return context;
 };
 
-// --- Assets (Local) ---
-// Using local files from resources
-// Note: Changed to achievement_icon.png to match standard request, 
-// if you used ping.png before, please ensure the file exists as achievement_icon.png 
-// or change this line back.
-const ICON_URL = "/resources/indicators/achievement_icon.png";
-const ACHIEVEMENT_SOUND = "/resources/sounds/achievement.mp3";
+// --- Assets ---
+// Grass block icon for the achievement
+const ICON_URL = "https://ru-minecraft.ru/uploads/posts/2021-04/1618981142_637545104773248835.png";
+// Level up sound
+const ACHIEVEMENT_SOUND = "https://www.myinstants.com/media/sounds/minecraft-achievement.mp3";
 
 // --- Component ---
 export const AchievementProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {

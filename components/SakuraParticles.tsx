@@ -1,7 +1,6 @@
 import React, { useMemo } from 'react';
 
-// Using local file - fixed path to 'resources'
-const PARTICLE_IMAGE = "/resources/particles/sakura.png";
+const PARTICLE_IMAGE = "https://static.planetminecraft.com/files/image/minecraft/texture-pack/2023/563/17290441_l.webp";
 const COUNT = 30;
 
 interface Particle {
