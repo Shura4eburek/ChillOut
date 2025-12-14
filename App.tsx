@@ -14,11 +14,11 @@ import { AchievementProvider, useAchievement } from './components/AchievementSys
 import { Github, Heart, MessageCircle, Gamepad2, Copy } from 'lucide-react';
 import { playClickSound } from './utils/audio'; 
 
-// Изображения для фонов (Локальные пути)
+// Изображения для фонов
 const BACKGROUNDS = {
-  overworld: "/resources/backgrounds/overworld.png", 
-  nether: "/resources/backgrounds/nether.png",     
-  end: "/resources/backgrounds/end.png"         
+  overworld: "https://wallpapercave.com/wp/wp13570264.jpg", 
+  nether: "https://wallpapercave.com/wp/wp3859952.jpg",     
+  end: "https://wallpapercave.com/wp/wp8368519.jpg"         
 };
 
 // Internal component to use the hook

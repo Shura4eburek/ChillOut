@@ -1,6 +1,6 @@
 // Minecraft UI Click Sound
-// Using local file
-const CLICK_SOUND_URL = "/resources/sounds/click.mp3";
+// Using a reliable source for the standard "click.ogg" sound
+const CLICK_SOUND_URL = "https://www.myinstants.com/media/sounds/minecraft_click.mp3";
 
 export const playClickSound = () => {
   const audio = new Audio(CLICK_SOUND_URL);
