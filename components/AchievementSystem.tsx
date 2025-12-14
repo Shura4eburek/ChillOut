@@ -23,11 +23,9 @@ export const useAchievement = () => {
   return context;
 };
 
-// --- Assets ---
-// Grass block icon for the achievement
-const ICON_URL = "https://ru-minecraft.ru/uploads/posts/2021-04/1618981142_637545104773248835.png";
-// Level up sound
-const ACHIEVEMENT_SOUND = "https://www.myinstants.com/media/sounds/minecraft-achievement.mp3";
+// --- Assets (Local) ---
+const ICON_URL = "/resources/indicators/achievement_icon.png";
+const ACHIEVEMENT_SOUND = "/resources/sounds/achievement.mp3";
 
 // --- Component ---
 export const AchievementProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {

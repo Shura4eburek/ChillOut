@@ -1,14 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { VolumeX, Music } from 'lucide-react';
 
-// Using direct node links from Archive.org
+// Using local music files with absolute paths from /resources/music
 const TRACKS = [
-  { title: "C418 - Far", url: "https://dn721809.ca.archive.org/0/items/minecraft-volume-beta/Minecraft%20Volume%20Beta%2F29.%20Far.mp3" },
-  { title: "C418 - Chirp", url: "https://dn721809.ca.archive.org/0/items/minecraft-volume-beta/Minecraft%20Volume%20Beta%2F20.%20Chirp.mp3" },
-  { title: "C418 - Aria Math", url: "https://dn721809.ca.archive.org/0/items/minecraft-volume-beta/Minecraft%20Volume%20Beta%2F13.%20Aria%20Math.mp3" },
-  { title: "C418 - Floating Trees", url: "https://dn721809.ca.archive.org/0/items/minecraft-volume-beta/Minecraft%20Volume%20Beta%2F12.%20Floating%20Trees.mp3" },
-  { title: "C418 - Haunt Muskie", url: "https://dn721809.ca.archive.org/0/items/minecraft-volume-beta/Minecraft%20Volume%20Beta%2F10.%20Haunt%20Muskie.mp3" },
-  { title: "C418 - Mutation", url: "https://dn721809.ca.archive.org/0/items/minecraft-volume-beta/Minecraft%20Volume%20Beta%2F09.%20Mutation.mp3" }
+  { title: "C418 - Far", url: "/resources/music/far.mp3" },
+  { title: "C418 - Chirp", url: "/resources/music/chirp.mp3" },
+  { title: "C418 - Aria Math", url: "/resources/music/aria_math.mp3" },
+  { title: "C418 - Floating Trees", url: "/resources/music/floating_trees.mp3" },
+  { title: "C418 - Haunt Muskie", url: "/resources/music/haunt_muskie.mp3" },
+  { title: "C418 - Mutation", url: "/resources/music/mutation.mp3" }
 ];
 
 export const BackgroundAudio: React.FC = () => {
