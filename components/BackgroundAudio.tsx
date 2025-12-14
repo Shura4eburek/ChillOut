@@ -1,14 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { VolumeX, Music } from 'lucide-react';
 
-// Using local music files with absolute paths
+// Using local music files with absolute paths from /resources/music
 const TRACKS = [
-  { title: "C418 - Far", url: "/music/far.mp3" },
-  { title: "C418 - Chirp", url: "/music/chirp.mp3" },
-  { title: "C418 - Aria Math", url: "/music/aria_math.mp3" },
-  { title: "C418 - Floating Trees", url: "/music/floating_trees.mp3" },
-  { title: "C418 - Haunt Muskie", url: "/music/haunt_muskie.mp3" },
-  { title: "C418 - Mutation", url: "/music/mutation.mp3" }
+  { title: "C418 - Far", url: "/resources/music/far.mp3" },
+  { title: "C418 - Chirp", url: "/resources/music/chirp.mp3" },
+  { title: "C418 - Aria Math", url: "/resources/music/aria_math.mp3" },
+  { title: "C418 - Floating Trees", url: "/resources/music/floating_trees.mp3" },
+  { title: "C418 - Haunt Muskie", url: "/resources/music/haunt_muskie.mp3" },
+  { title: "C418 - Mutation", url: "/resources/music/mutation.mp3" }
 ];
 
 export const BackgroundAudio: React.FC = () => {

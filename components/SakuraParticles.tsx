@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 
-const PARTICLE_IMAGE = "/pics/sakura.png";
+// Using local file - fixed path to 'resources'
+const PARTICLE_IMAGE = "/resources/particles/sakura.png";
 const COUNT = 30;
 
 interface Particle {
